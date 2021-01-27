@@ -50,9 +50,12 @@ public class Usuario implements Serializable{
 	
 	
 
+	public Usuario() {
+		
+	}
+	
 	public Usuario(Long id) {
-		super();
-		this.id = id;
+		this.id=id;
 	}
 
 	public Long getId() {
